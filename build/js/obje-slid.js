@@ -1,0 +1,1 @@
+$(document).ready((function(){$(".burger").click((function(l){$(".modal").toggleClass("modal--visible")})),$(".menu__close ").click((function(l){$(".modal").toggleClass("modal--visible")}))}));

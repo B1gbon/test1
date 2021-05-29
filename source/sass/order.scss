@@ -1,0 +1,222 @@
+.profile {
+  &__object {
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.object {
+  &-prof {
+    &__menus {
+      position: relative;
+      margin-bottom: 52px;
+    }
+    &__menu {
+      &-list {
+        display: flex;
+      }
+    }
+    &__items {
+      margin-right: 35px;
+    }
+    &__item {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #151B1E;
+      position: relative;
+      &::after {
+        position: absolute;
+        display: block;
+        content: "";
+        height: 3px;
+        border-radius: 2px;
+        background: #00ADBB;
+        width: 0%;
+        transition: width 0.3s ease-in-out;
+        left: 0;
+        bottom: 0;
+        top: 80%;
+        margin-top: 12px;
+      }
+      &:hover{
+        color: #00ADBB;
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+  &__cards {
+    margin-bottom: 78px;
+  }
+}
+.options {
+  &__choice {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+    &-btn {
+      padding: 16px 14px;
+      background: #00ADBB;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+  &__apart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    &-title {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 37px;
+      color: #ACADAD;
+      display: flex;
+      align-items: center;
+      &::after {
+        content: '';
+        width: 12px;
+        height: 7px;
+        background-image: url(../img/arrow-down.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20px;
+        margin-right: 20px;
+        transform: rotate(-90deg);
+      }
+    }
+    &-subtitle {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 37px;
+      color: #151B1E;
+    }
+  }
+}
+.profil {
+  margin-right: 20px;
+  margin-left: 0;
+}
+.card__info {
+  position: absolute;
+  top: 29px;
+  left: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 24;
+  cursor: pointer;
+  &::before {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    width: 43px;
+    height: 42px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+}
+
+
+
+.options-1 {
+  &::before {
+    content: '';
+    position: absolute;
+    max-width: 1539px;
+    width: 100%;
+    height: 1px;
+    margin-top: -43px !important;
+    background-color: #C5C5C5;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+}
+.basket {
+  &__btn {
+    &-input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__im {
+    margin-left: 7px;
+  }
+}
+
+.actives {
+  color: #00ADBB !important;
+  position: relative;
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 3px;
+    border-radius: 2px;
+    background: #00ADBB;
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+    left: 0;
+    bottom: 0;
+    top: 80%;
+    margin-top: 12px;
+  }
+}
+.order__cards {
+  justify-content: center;
+}
+
+
+.order-list__wrapper {
+  position: absolute;
+  top: 15px;
+  left: 9px;
+}
+.orders__bloks {
+  padding: 27px 16px 9px 40px;
+  background: #fff;
+  border: 1px solid #c5c5c5;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.orders__bloks-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.orders__bloks-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #151b1e;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.profil {
+  &:nth-last-child(1) {
+    margin-right: 0;
+  }
+  &:nth-last-child(5) {
+    margin-right: 0;
+  }
+}
+
+

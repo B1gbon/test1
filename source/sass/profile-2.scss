@@ -1,0 +1,108 @@
+.profile-2 {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  &__agent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-name {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 37px;
+      color: #151B1E;
+      margin-bottom: 6px;
+    }
+    &-connect {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    &-numb {
+      display: flex;
+      align-items: center;
+      margin-right: 26px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #151B1E;
+    }
+  }
+  &__bloks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 39px;
+  }
+  &__inputs {
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    width: 500px;
+    height: 57px;
+    background: #F5F5F5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7F898D;
+    margin-bottom: 10px;
+    &::placeholder {
+      padding-left: 19px;
+      color: rgba(127, 137, 141, 0.5);
+    }
+  }
+  &__input {
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    width: 500px;
+    height: 57px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7F898D;
+    margin-bottom: 10px;
+    &::placeholder {
+      padding-left: 19px;
+      color: #7F898D;
+    }
+  }
+  &__btn {
+    width: 240px;
+    height: 57px;
+    background: #00adbb;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+}
+.des {
+  width: 500px;
+  height: 197px;
+  &::placeholder {
+    position: relative;
+    top: -70px;
+  }
+}
+.numb-2 {
+  color: #00ADBB;
+}
+.number {
+  margin-left: 5px;
+}
+.pag {
+  margin-right: 5px;
+}

@@ -1,0 +1,54 @@
+.object {
+  &__foto {
+    display: none;
+  }
+
+}
+.block-4 {
+  &-bloks {
+    display: none;
+  }
+}
+.block-5 {
+  height: 167px;
+}
+.location-1 {
+  &::after {
+    display: none;
+  }
+}
+.logo_copr {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: #7F898D;
+}
+.logo_atm {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: #7F898D;
+  margin-right: 7px;
+}
+// .info__imgses {
+//   width: 370px;
+//   height: 290px;
+// }
+.info__formes {
+  margin-top: 20px ;
+}
+.card__textses {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #151B1E;
+  margin-left: 11px;
+
+}
+
+
+
+

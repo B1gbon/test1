@@ -1,0 +1,95 @@
+.prof {
+  margin-bottom: 392px;
+}
+.profile-1 {
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 19px;
+  max-width: 378px;
+  height: 137px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:nth-child(1) {
+    margin-left: 0;
+  }
+  &:nth-child(5) {
+    margin-left: 0;
+  }
+  &__card {
+    // display: flex;
+    display: -webkit-box;
+    align-items: center;
+  }
+  &__text {
+    max-width: 220px;
+    width: 100%;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151B1E;
+  }
+  &__info {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 24;
+    cursor: pointer;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    color: #151b1e;
+  }
+  &__btn {
+    padding: 16px 27px;
+  }
+
+  &__itemss {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #151b1e;
+    position: relative;
+  }
+
+}
+
+.tab-section {
+  visibility: hidden;
+  height: 0;
+  display: none;
+}
+.tabs-content--active {
+  height: auto;
+  visibility: visible;
+  display: block;
+}
+.tab_active {
+  color: #00adbb!important;
+  position: relative;
+}
+.tab_active::after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 3px;
+  border-radius: 2px;
+  background: #00adbb;
+  width: 100%;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  left: 0;
+  bottom: 0;
+  top: 80%;
+  margin-top: 12px;
+}
